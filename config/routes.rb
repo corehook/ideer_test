@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     collection do
       post 'parse'
       post 'update_author'
+      post 'find_user_repos'
     end
   end
 

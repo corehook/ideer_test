@@ -42,6 +42,17 @@ class CommitsController < ApplicationController
     send_response @response
   end
 
+  def find_user_repos
+    begin
+      @response[:repos] = $github.repos.list(user: parse_params[:user]).map(&:name)
+      @response[:success] = true
+    rescue Github::Error::NotFound => e
+      @response[:repos] = []
+    end
+
+    send_response @response
+  end
+
   def find_user(commit)
     User.find_or_create_by(name: commit.commit.author.name, email: commit.commit.author.email)
   end

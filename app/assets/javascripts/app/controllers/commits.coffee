@@ -9,6 +9,15 @@ class CommitsController
       user: ''
       repo: ''
 
+
+    @scope.$watch('vm.parse.user', (old_val, new_val) ->
+      packet =
+        user: vm.parse.user
+      vm.Commits.find_user_repos(packet).$promise.then( (response) ->
+        if response.success
+          vm.parse.repos = response.repos
+      )
+    )
     @fetch_commits()
 
 

@@ -8,9 +8,12 @@
       / Importer
       %form.navbar-form.navbar-left
         .form-group
-          %input.form-control{:placeholder => "User", :type => "text", 'ng-model' => "vm.parse.user"}
+          %input.form-control{:placeholder => "User", :type => "text", 'ng-model' => "vm.parse.user", 'ng-model-options'=>"{ debounce: 250 }"}
         .form-group
-          %input.form-control{:placeholder => "Repo", :type => "text", 'ng-model' => "vm.parse.repo"}
+          %select.form-control{'ng-model' => "vm.parse.repo"}
+            %option{'ng-repeat' => "repo in vm.parse.repos", value: "{{repo}}"} {{ repo }}
+
+          -#%input.form-control{:placeholder => "Repo", :type => "text", 'ng-model' => "vm.parse.repo"}
         %button.btn.btn-info{'ng-click' => "vm.import_confirm()"} Import
 
       / Filter

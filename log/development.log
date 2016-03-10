@@ -33501,3 +33501,1473 @@ Update author params {"name"=>"Ауанасов Baron 222", "id"=>16}
   [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["name", "Ауанасов Baron 222"], ["updated_at", "2016-03-10 09:37:00.189735"], ["id", 16]]
   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
 Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 14:58:14 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 3015ms (Views: 3004.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/app/app.self-7fc34b83ff491ef02a9292468e9e01955ae4a12852f9944e74f0b40bb0e591ef.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-25f4477d6db1bedc01f6c05b690fba34f29bfbd143796b6004f0cc7e31c79ac1.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (4.8ms)
+  Rendered templates/commits/index.haml (19.8ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 14:58:18 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (2.3ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (72.74ms)
+Completed 200 OK in 136ms (Views: 29.8ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 14:58:31 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 1640ms (Views: 1638.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/app/app.self-7fc34b83ff491ef02a9292468e9e01955ae4a12852f9944e74f0b40bb0e591ef.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 14:58:33 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 14:58:34 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.4ms)
+  Rendered templates/commits/index.haml (2.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 14:58:34 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (0.8ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (9.48ms)
+Completed 200 OK in 16ms (Views: 3.1ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 14:58:34 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1374ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (146.8ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 14:58:36 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"c", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 403 Forbidden in 1312ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 125ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/app/app.self-7fc34b83ff491ef02a9292468e9e01955ae4a12852f9944e74f0b40bb0e591ef.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 14:59:38 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 14:59:39 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (13.6ms)
+  Rendered templates/commits/index.haml (16.3ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 14:59:39 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (0.9ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (13.54ms)
+Completed 200 OK in 34ms (Views: 8.7ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 14:59:39 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1348ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.5ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 14:59:40 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"corehook", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 200 OK in 1621ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 14:59:59 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 1198ms (Views: 1197.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.3ms)
+  Rendered templates/commits/index.haml (2.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:00:01 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (0.6ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (8.26ms)
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:00:02 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1855ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.1ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.1ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (132.8ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:00:04 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"co", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 200 OK in 1392ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:00:05 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"corehook", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 200 OK in 1960ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/commits/parse" for 127.0.0.1 at 2016-03-10 15:00:15 +0500
+Processing by CommitsController#parse as HTML
+  Parameters: {"user"=>"corehook", "repo"=>"ideer_test", "repos"=>["0day.blog", "angular-splash-demo", "client_side_validations", "corehook.github.io", "exception_notification", "faye", "fnordmetric", "fogblog2", "free-for-dev", "hasoffersv3", "ideer_test", "ids_please", "jasminerice", "kaminari", "karma-coffee-preprocessor", "littlesms", "rails_admin", "riak-cache", "robux", "robux-logstash", "robux-nginx", "userstamp"], "commit"=>{}}
+Unpermitted parameters: repos, commit
+Parse params {"user"=>"corehook", "repo"=>"ideer_test"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mCommit Load (3.5ms)[0m  SELECT "commits".* FROM "commits" WHERE "commits"."user_id" = $1  [["user_id", 17]]
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "commits" WHERE "commits"."id" = $1[0m  [["id", 2307]]
+  [1m[35mSQL (12.9ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 17]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mCommit Load (1.4ms)[0m  [1mSELECT "commits".* FROM "commits" WHERE "commits"."user_id" = $1[0m  [["user_id", 16]]
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "commits" WHERE "commits"."id" = $1  [["id", 2300]]
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "commits" WHERE "commits"."id" = $1[0m  [["id", 2301]]
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "commits" WHERE "commits"."id" = $1  [["id", 2302]]
+  [1m[36mSQL (1.1ms)[0m  [1mDELETE FROM "commits" WHERE "commits"."id" = $1[0m  [["id", 2303]]
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "commits" WHERE "commits"."id" = $1  [["id", 2304]]
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "commits" WHERE "commits"."id" = $1[0m  [["id", 2305]]
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "commits" WHERE "commits"."id" = $1  [["id", 2306]]
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 16]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Unpermitted parameters: repos, commit
+Repo 0day.blog
+Unpermitted parameters: repos, commit
+Repo angular-splash-demo
+Unpermitted parameters: repos, commit
+Repo client_side_validations
+Unpermitted parameters: repos, commit
+Repo corehook.github.io
+Unpermitted parameters: repos, commit
+Repo exception_notification
+Unpermitted parameters: repos, commit
+Repo faye
+Unpermitted parameters: repos, commit
+Repo fnordmetric
+Unpermitted parameters: repos, commit
+Repo fogblog2
+Unpermitted parameters: repos, commit
+Repo free-for-dev
+Unpermitted parameters: repos, commit
+Repo hasoffersv3
+Unpermitted parameters: repos, commit
+Repo ideer_test
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+  [1m[36mUser Load (3.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Чингиз Ауанасов"], ["email", "auanassov.chingiz@gmail.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Чингиз Ауанасов"], ["email", "auanassov.chingiz@gmail.com"], ["created_at", "2016-03-10 10:00:18.977983"], ["updated_at", "2016-03-10 10:00:18.977983"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "beac029efa4449f59825b5537dadd8ac51b6e270"], ["message", "ansible deploy + some fixes"], ["user_id", 18], ["date", "2016-03-10T09:39:34Z"], ["created_at", "2016-03-10 10:00:18.985554"], ["updated_at", "2016-03-10 10:00:18.985554"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Чингиз Ауанасов"], ["email", "auanassov.chingiz@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "c1622121e2a95001a8c097e08c1c63b2435b98fe"], ["message", "first commit"], ["user_id", 18], ["date", "2016-03-10T08:43:33Z"], ["created_at", "2016-03-10 10:00:18.997817"], ["updated_at", "2016-03-10 10:00:18.997817"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+Completed 200 OK in 4142ms (Views: 0.3ms | ActiveRecord: 45.6ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:00:20 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (0.4ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 18]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 18]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (2.01ms)
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/commits/parse" for 127.0.0.1 at 2016-03-10 15:00:31 +0500
+Processing by CommitsController#parse as HTML
+  Parameters: {"user"=>"corehook", "repo"=>"kaminari", "repos"=>["0day.blog", "angular-splash-demo", "client_side_validations", "corehook.github.io", "exception_notification", "faye", "fnordmetric", "fogblog2", "free-for-dev", "hasoffersv3", "ideer_test", "ids_please", "jasminerice", "kaminari", "karma-coffee-preprocessor", "littlesms", "rails_admin", "riak-cache", "robux", "robux-logstash", "robux-nginx", "userstamp"], "commit"=>{}}
+Unpermitted parameters: repos, commit
+Parse params {"user"=>"corehook", "repo"=>"kaminari"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mCommit Load (1.1ms)[0m  [1mSELECT "commits".* FROM "commits" WHERE "commits"."user_id" = $1[0m  [["user_id", 18]]
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "commits" WHERE "commits"."id" = $1  [["id", 2308]]
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "commits" WHERE "commits"."id" = $1[0m  [["id", 2309]]
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 18]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Unpermitted parameters: repos, commit
+Repo 0day.blog
+Unpermitted parameters: repos, commit
+Repo angular-splash-demo
+Unpermitted parameters: repos, commit
+Repo client_side_validations
+Unpermitted parameters: repos, commit
+Repo corehook.github.io
+Unpermitted parameters: repos, commit
+Repo exception_notification
+Unpermitted parameters: repos, commit
+Repo faye
+Unpermitted parameters: repos, commit
+Repo fnordmetric
+Unpermitted parameters: repos, commit
+Repo fogblog2
+Unpermitted parameters: repos, commit
+Repo free-for-dev
+Unpermitted parameters: repos, commit
+Repo hasoffersv3
+Unpermitted parameters: repos, commit
+Repo ideer_test
+Unpermitted parameters: repos, commit
+Repo ids_please
+Unpermitted parameters: repos, commit
+Repo jasminerice
+Unpermitted parameters: repos, commit
+Repo kaminari
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Zachary Scott"], ["email", "e@zzak.io"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "Zachary Scott"], ["email", "e@zzak.io"], ["created_at", "2016-03-10 10:00:34.863798"], ["updated_at", "2016-03-10 10:00:34.863798"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "70610643aaeb207e527e394725c9797e159c1fda"], ["message", "Merge pull request #467 from wbyoung/coveralls\n\nAdded Coveralls support."], ["user_id", 19], ["date", "2013-11-11T20:19:14Z"], ["created_at", "2016-03-10 10:00:34.867646"], ["updated_at", "2016-03-10 10:00:34.867646"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Zachary Scott"], ["email", "e@zzak.io"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "195354e55e73a58caa0c95ee8d27bbd0531a1d6f"], ["message", "Merge pull request #468 from wbyoung/issue-459\n\nAdding documentation for testing."], ["user_id", 19], ["date", "2013-11-11T19:38:30Z"], ["created_at", "2016-03-10 10:00:34.872589"], ["updated_at", "2016-03-10 10:00:34.872589"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Whitney Young"], ["email", "wbyoung@fadingred.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Whitney Young"], ["email", "wbyoung@fadingred.com"], ["created_at", "2016-03-10 10:00:34.876834"], ["updated_at", "2016-03-10 10:00:34.876834"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "253a9b20c7a6f224374f352f83e58dab8886fa00"], ["message", "Adding documentation for testing."], ["user_id", 20], ["date", "2013-11-11T17:54:41Z"], ["created_at", "2016-03-10 10:00:34.880123"], ["updated_at", "2016-03-10 10:00:34.880123"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Whitney Young"], ["email", "wbyoung@fadingred.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "804ff8c87c9dfa3ed9f58021a5646443a2cdd1c9"], ["message", "Coveralls handles multiple Travis builds.\n\nThere's no need to use the merged support from Coveralls since they\nalready handle receiving data from multiple Travis builds and\ncombining that."], ["user_id", 20], ["date", "2013-11-11T17:22:48Z"], ["created_at", "2016-03-10 10:00:34.885113"], ["updated_at", "2016-03-10 10:00:34.885113"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Whitney Young"], ["email", "wbyoung@fadingred.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "2ce9e16055a678104e986a001538a24e481ed0f1"], ["message", "Added service name for Coveralls."], ["user_id", 20], ["date", "2013-11-11T17:22:02Z"], ["created_at", "2016-03-10 10:00:34.890303"], ["updated_at", "2016-03-10 10:00:34.890303"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Whitney Young"], ["email", "wbyoung@fadingred.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "1281f00bf034cf00488f783f5850a216db3fb39b"], ["message", "Added Coveralls support."], ["user_id", 20], ["date", "2013-11-11T15:47:55Z"], ["created_at", "2016-03-10 10:00:34.895256"], ["updated_at", "2016-03-10 10:00:34.895256"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Yuki Nishijima"], ["email", "mail@yukinishijima.net"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "Yuki Nishijima"], ["email", "mail@yukinishijima.net"], ["created_at", "2016-03-10 10:00:34.912318"], ["updated_at", "2016-03-10 10:00:34.912318"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "ecd2578cf28c7c5ed37a8011820c9b99e8ecc794"], ["message", "Merge branch 'master' of https://github.com/kolodovskyy/kaminari into kolodovskyy-master"], ["user_id", 21], ["date", "2013-11-11T01:33:17Z"], ["created_at", "2016-03-10 10:00:34.915670"], ["updated_at", "2016-03-10 10:00:34.915670"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Yuki Nishijima"], ["email", "mail@yukinishijima.net"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "e6f266acb55620b9d483968aa7e67b6e8074febc"], ["message", "Add test that checks if AR's abstract_class option plays together with kaminari"], ["user_id", 21], ["date", "2013-11-11T01:32:46Z"], ["created_at", "2016-03-10 10:00:34.921454"], ["updated_at", "2016-03-10 10:00:34.921454"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"], ["created_at", "2016-03-10 10:00:34.925928"], ["updated_at", "2016-03-10 10:00:34.925928"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "5242e88985838597ae74904906281c38a70ec291"], ["message", "... and Grape.\n\n[ci skip]"], ["user_id", 22], ["date", "2013-11-10T00:01:02Z"], ["created_at", "2016-03-10 10:00:34.928926"], ["updated_at", "2016-03-10 10:00:34.928926"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "58b57a40e88726f3ef64317a01003360eab2890f"], ["message", "Looks like we are supporting DM and Slim"], ["user_id", 22], ["date", "2013-11-09T23:52:46Z"], ["created_at", "2016-03-10 10:00:34.933524"], ["updated_at", "2016-03-10 10:00:34.933524"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "7a3dc33a0a34e5084f3c57d3e22dc6862d395121"], ["message", "Missing CI tests"], ["user_id", 22], ["date", "2013-11-09T23:33:30Z"], ["created_at", "2016-03-10 10:00:34.938240"], ["updated_at", "2016-03-10 10:00:34.938240"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "b2221f7b1955067831453fc33d8928e8a6478671"], ["message", "AR 3.0: call the original count method if :distinct option was given\n\nfixes #453"], ["user_id", 22], ["date", "2013-11-09T23:02:49Z"], ["created_at", "2016-03-10 10:00:34.942755"], ["updated_at", "2016-03-10 10:00:34.942755"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "7c228ff673e1617acb0c2c6ce5c9515418f1fb2b"], ["message", "Revert \"count + distinct: true won't work under AR 3.0\"\n\nThis reverts commit 8c736ceb2a3ba5b5584fd9f398665de32fc8745d.\nreason: AR 3.0 count actually accepts distinct: true"], ["user_id", 22], ["date", "2013-11-09T21:28:08Z"], ["created_at", "2016-03-10 10:00:34.947062"], ["updated_at", "2016-03-10 10:00:34.947062"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "a157fe00bebf82319ebbcba5bc64baa8f21f01fc"], ["message", "Revert \"Testing that `paginate` helper properly works under mouted Engine\"\n\nThis reverts commit e8cab2d34af2ab2b9133366d9dcd756d0dd02e66.\n\nreason: this commit was accidentally added. I wanted to test that the helpers are working inside mouted engine on the fake app, but it turned out that this test is not really testing that..."], ["user_id", 22], ["date", "2013-11-09T20:17:32Z"], ["created_at", "2016-03-10 10:00:34.951749"], ["updated_at", "2016-03-10 10:00:34.951749"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "3be5f441d0e26bd91c73e1b937a5cb68f933f10d"], ["message", "CI against mongoid 3.1"], ["user_id", 22], ["date", "2013-11-09T20:08:38Z"], ["created_at", "2016-03-10 10:00:34.956790"], ["updated_at", "2016-03-10 10:00:34.956790"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["sha", "46ba7082305ee8945fff6ac7d54eb5d4847bc583"], ["message", "Looks like mongoid 3.1 doesn't actually support Rails 4"], ["user_id", 22], ["date", "2013-11-09T20:08:02Z"], ["created_at", "2016-03-10 10:00:34.961186"], ["updated_at", "2016-03-10 10:00:34.961186"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1  [["name", "Zachary Scott"], ["email", "zachary@zacharyscott.net"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "Zachary Scott"], ["email", "zachary@zacharyscott.net"], ["created_at", "2016-03-10 10:00:34.964592"], ["updated_at", "2016-03-10 10:00:34.964592"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "a7cb79653df27bd7554004baaf81c001132fdf2b"], ["message", "get tests to run for sinatra_*"], ["user_id", 23], ["date", "2013-11-09T19:21:35Z"], ["created_at", "2016-03-10 10:00:34.980601"], ["updated_at", "2016-03-10 10:00:34.980601"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "8c736ceb2a3ba5b5584fd9f398665de32fc8745d"], ["message", "count + distinct: true won't work under AR 3.0"], ["user_id", 22], ["date", "2013-11-09T18:42:41Z"], ["created_at", "2016-03-10 10:00:34.986424"], ["updated_at", "2016-03-10 10:00:34.986424"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "b9ad9bc5a6c1cbc9c54dc00ee874bf0be5b51008"], ["message", "Skip the whole test when the version doesn't match\n\nfrom @eitoball's comment: https://github.com/amatsuda/kaminari/pull/449#issuecomment-26684361"], ["user_id", 22], ["date", "2013-11-09T18:31:50Z"], ["created_at", "2016-03-10 10:00:34.991832"], ["updated_at", "2016-03-10 10:00:34.991832"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "32fb711d96bdd7fc61fd2f5a4b46985b68c2e7d0"], ["message", "Merge branch 'wbyoung-pass-test-suite'"], ["user_id", 22], ["date", "2013-11-09T18:00:53Z"], ["created_at", "2016-03-10 10:00:34.998096"], ["updated_at", "2016-03-10 10:00:34.998096"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "569c83f1ef5cf92e4a1b8fa542574a4c716f17cb"], ["message", "Merge branch 'pass-test-suite' of github.com:wbyoung/kaminari\n\nConflicts:\n\tspec/models/active_record/active_record_relation_methods_spec.rb"], ["user_id", 22], ["date", "2013-11-09T18:00:29Z"], ["created_at", "2016-03-10 10:00:35.003266"], ["updated_at", "2016-03-10 10:00:35.003266"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "871b2ed334a39186237f273db81f649b3aa4e781"], ["message", "Get rdoc working correctly"], ["user_id", 22], ["date", "2013-11-07T09:37:53Z"], ["created_at", "2016-03-10 10:00:35.008531"], ["updated_at", "2016-03-10 10:00:35.008531"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "75d4849685cb40287ceb3855e5a6903052fe751a"], ["message", ":scissors:"], ["user_id", 22], ["date", "2013-11-07T09:31:51Z"], ["created_at", "2016-03-10 10:00:35.012706"], ["updated_at", "2016-03-10 10:00:35.012706"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "6cbd2d5645921efdb12e0d9711fc668a3237062f"], ["message", "Revert \"An Engine can include app/helpers, so let's move the helpers there\"\n\nThis reverts commit 2ed8adfe378594ae1585ac4a457a6d01f04478eb.\n\nreason: Because mounted engines on the app doesn't search the main_app's helpers, then throws \"undefined method `paginate'\" in the views"], ["user_id", 22], ["date", "2013-08-29T10:53:16Z"], ["created_at", "2016-03-10 10:00:35.017297"], ["updated_at", "2016-03-10 10:00:35.017297"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "3e1171ed0a9d0435b9137e11b5ac25ac7515e857"], ["message", "Revert \"Rails 3.0.x fails to load helpers in Engines (?)\"\n\nThis reverts commit 00c912d12bc49c0e7b3d748854e0bdce94ff3470.\n\nreason: reverting back from app/helpers to ActionView::Base freedom-patch.\nBecause mounted engines on the app doesn't search the main_app's helpers, then throws \"undefined method `paginate'\" in the views"], ["user_id", 22], ["date", "2013-08-29T10:48:50Z"], ["created_at", "2016-03-10 10:00:35.022577"], ["updated_at", "2016-03-10 10:00:35.022577"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "be7ba2d3a89e97c034d24c9b7e86c26d90cadc2d"], ["message", "Merge branch 'pass-test-suite' of github.com:wbyoung/kaminari into wbyoung-pass-test-suite\n\nConflicts:\n\tspec/models/active_record/active_record_relation_methods_spec.rb"], ["user_id", 22], ["date", "2013-11-09T17:55:05Z"], ["created_at", "2016-03-10 10:00:35.027804"], ["updated_at", "2016-03-10 10:00:35.027804"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "04c0b26a164a48842d297aecec440a01bbb69e4f"], ["message", "Get rdoc working correctly"], ["user_id", 22], ["date", "2013-11-07T09:37:53Z"], ["created_at", "2016-03-10 10:00:35.032296"], ["updated_at", "2016-03-10 10:00:35.032296"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "4fb5bf7dc5827da270312b82de39c4f9359423c1"], ["message", ":scissors:"], ["user_id", 22], ["date", "2013-11-07T09:31:51Z"], ["created_at", "2016-03-10 10:00:35.052136"], ["updated_at", "2016-03-10 10:00:35.052136"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "6ac69ad07cefb33a399dc10df2d421ef9229e289"], ["message", "Revert \"An Engine can include app/helpers, so let's move the helpers there\"\n\nThis reverts commit 2ed8adfe378594ae1585ac4a457a6d01f04478eb.\n\nreason: Because mounted engines on the app doesn't search the main_app's helpers, then throws \"undefined method `paginate'\" in the views"], ["user_id", 22], ["date", "2013-08-29T10:53:16Z"], ["created_at", "2016-03-10 10:00:35.057303"], ["updated_at", "2016-03-10 10:00:35.057303"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 AND "users"."email" = $2 LIMIT 1[0m  [["name", "Akira Matsuda"], ["email", "ronnie@dio.jp"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "commits" ("sha", "message", "user_id", "date", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sha", "ab3001fc417f8b835ea10d59627533c5cbca6507"], ["message", "Revert \"Rails 3.0.x fails to load helpers in Engines (?)\"\n\nThis reverts commit 00c912d12bc49c0e7b3d748854e0bdce94ff3470.\n\nreason: reverting back from app/helpers to ActionView::Base freedom-patch.\nBecause mounted engines on the app doesn't search the main_app's helpers, then throws \"undefined method `paginate'\" in the views"], ["user_id", 22], ["date", "2013-08-29T10:48:50Z"], ["created_at", "2016-03-10 10:00:35.061763"], ["updated_at", "2016-03-10 10:00:35.061763"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Unpermitted parameters: repos, commit
+Unpermitted parameters: repos, commit
+Completed 200 OK in 4748ms (Views: 0.3ms | ActiveRecord: 52.6ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:00:36 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (8.4ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 23]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (35.75ms)
+Completed 200 OK in 49ms (Views: 2.7ms | ActiveRecord: 10.3ms)
+
+
+Started POST "/commits/update_author" for 127.0.0.1 at 2016-03-10 15:00:44 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>22, "name"=>"Что то Matsuda"}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+Update author params {"name"=>"Что то Matsuda", "id"=>22}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["name", "Что то Matsuda"], ["updated_at", "2016-03-10 10:00:44.184164"], ["id", 22]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:00:54 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:00:55 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.2ms)
+  Rendered templates/commits/index.haml (9.3ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:00:56 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (0.5ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (4.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 23]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (50.3ms)
+Completed 200 OK in 70ms (Views: 7.7ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:00:56 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1407ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.9ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.1ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:01:00 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 299ms (Views: 294.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.3ms)
+  Rendered templates/commits/index.haml (9.7ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (1.2ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 23]]
+[active_model_serializers]   [1m[36mCACHE (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (81.95ms)
+Completed 200 OK in 105ms (Views: 13.5ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:01:01 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1182ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.2ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (241.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:01:12 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.3ms)
+  Rendered templates/commits/index.haml (13.0ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (2.9ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 23]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (55.28ms)
+Completed 200 OK in 74ms (Views: 12.7ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:01:13 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1247ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.2ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.2ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.8ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (170.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.2ms)
+  Rendered templates/commits/index.haml (17.7ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (0.8ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 23]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (62.23ms)
+Completed 200 OK in 74ms (Views: 4.6ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:01:17 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 1237ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.7ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:01:25 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"zeroday", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 200 OK in 1667ms (Views: 0.4ms | ActiveRecord: 0.0ms)

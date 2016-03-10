@@ -10,7 +10,7 @@
     rails_env:    production
     ruby_version: ruby-2.2.0
     gem_path:     /home/{{user}}/.rvm/rubies/{{ruby_version}}/bin/gem
-    bundler_path: /home/{{user}}/.rvm/gems/{{ruby_version}}/bin/bundle
+    bundler_path: RAILS_ENV={{rails_env}} /home/{{user}}/.rvm/gems/{{ruby_version}}/bin/bundle
     secret_key:   e93d699a4464b560190942c2303aa8f91cd2133fc56414d5eac1fc453ae440a81e716ff87d85b6c91311f66b8d8b24b4ba387c0895257496c7586c70c18827ad
     app_name:     ideer_test
     git_repo:     git@github.com:corehook/ideer_test.git

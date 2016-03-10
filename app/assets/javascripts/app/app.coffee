@@ -38,6 +38,7 @@
           {method: 'GET', isArray: false},
           {name: 'parse', method: 'POST', url: '/parse', isArray: false}
           {name: 'update_author', method: 'POST', url: '/update_author', isArray: false}
+          {name: 'find_user_repos',method: 'POST', url: '/find_user_repos', isArray: false}
         ]
       ]
 

@@ -12,11 +12,10 @@
             %table.table.table-condensed.table-striped.table-hover.table-bordered
               %thead
                 %td.col-xs-1 #
-                %td Имя
+                %td.col-xs-3 Имя
                 %td email
                 %td.col-xs-1 Дата
                 %td Описание
-                %td Хэш
               %tbody
                 %tr{'dir-paginate' => "commit in vm.commits | filter:vm.filter | itemsPerPage: vm.items_limit"}
                   %td {{commit.id}}
@@ -29,7 +28,6 @@
                   %td {{commit.email}}
                   %td {{commit.date | date}}
                   %td {{commit.message}}
-                  %td {{commit.sha}}
       .box-footer
         .col-xs-12
           %dir-pagination-controls
