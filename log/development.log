@@ -34971,3 +34971,306 @@ Processing by CommitsController#find_user_repos as HTML
   Parameters: {"user"=>"zeroday", "commit"=>{}}
 Unpermitted parameter: commit
 Completed 200 OK in 1667ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:15:50 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 1411ms (Views: 1399.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.min.self-2d270165c6d4f1c848a3b69a44296ee2086a8ee02433f5a4cf77adba17db19bc.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:51 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:51 +0500
+
+
+Started GET "/assets/application.self-58e727f188ca5355b4f82bb9326c498449c3a1bf76243872496fbda883409222.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:51 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-9e1a84c9ac605a3f8e76a953b7457d6ef6d1c5621482265243a9a257dddaa130.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (3.8ms)
+  Rendered templates/commits/index.haml (12.8ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (1.5ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 23]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (84.2ms)
+Completed 200 OK in 127ms (Views: 9.5ms | ActiveRecord: 22.9ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:15:52 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 500 Internal Server Error in 4888ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for ["login", "repos"]:Array):
+  app/controllers/commits_controller.rb:47:in `map'
+  app/controllers/commits_controller.rb:47:in `find_user_repos'
+
+
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.7ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/corehook/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (152.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 15:16:34 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 1558ms (Views: 1534.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.min.self-2d270165c6d4f1c848a3b69a44296ee2086a8ee02433f5a4cf77adba17db19bc.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/application.self-58e727f188ca5355b4f82bb9326c498449c3a1bf76243872496fbda883409222.css?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/app/app.self-8f9ffe9b864f2fc92643ce5dc409f1a56230905993b1db50b0702b639acdff09.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-3ef122d5639cc21cc90eafe1e81bfb5e925fc37cd0cc4289ffea4a444405834c.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-10 15:16:35 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 127.0.0.1 at 2016-03-10 15:16:36 +0500
+
+
+Started GET "/templates/commits/index.html" for 127.0.0.1 at 2016-03-10 15:16:36 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.8ms)
+  Rendered templates/commits/index.haml (6.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for 127.0.0.1 at 2016-03-10 15:16:36 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (1.1ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 19]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 20]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 23]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (36.58ms)
+Completed 200 OK in 51ms (Views: 9.1ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/commits/find_user_repos" for 127.0.0.1 at 2016-03-10 15:17:08 +0500
+Processing by CommitsController#find_user_repos as HTML
+  Parameters: {"user"=>"corehook", "commit"=>{}}
+Unpermitted parameter: commit
+Completed 200 OK in 1768ms (Views: 0.4ms | ActiveRecord: 0.0ms)
