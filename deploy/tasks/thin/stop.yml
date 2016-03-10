@@ -1,0 +1,8 @@
+- name: Stop thin
+  sudo: no
+  shell: >
+    source ~/.rvm/scripts/rvm; RAILS_ENV={{rails_env}} bundle exec thin -C config/thin.yml stop
+  args:
+    executable: /bin/bash
+    chdir: "{{root_path}}"
+  ignore_errors: yes

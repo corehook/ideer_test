@@ -1,0 +1,12 @@
+# Update app repo
+- name: Clone or update repo
+  sudo: no
+  git: repo={{git_repo}} dest={{root_path}} clone=yes update=yes accept_hostkey=yes force=yes version={{git_branch}}
+
+- name: change branch
+  sudo: no
+  shell: >
+    git checkout {{git_branch}}
+  args:
+    chdir: "{{root_path}}"
+    

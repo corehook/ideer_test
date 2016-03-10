@@ -1,0 +1,36 @@
+---
+- hosts: s_staging
+  user: corehook
+  sudo: no
+
+  vars:
+    hostname:     300kv.kz
+    user:         corehook
+    group:        corehook
+    rails_env:    production
+    ruby_version: ruby-2.2.0
+    gem_path:     /home/{{user}}/.rvm/rubies/{{ruby_version}}/bin/gem
+    bundler_path: /home/{{user}}/.rvm/gems/{{ruby_version}}/bin/bundle
+    secret_key:   e93d699a4464b560190942c2303aa8f91cd2133fc56414d5eac1fc453ae440a81e716ff87d85b6c91311f66b8d8b24b4ba387c0895257496c7586c70c18827ad
+    app_name:     ideer_test
+    git_repo:     git@github.com:corehook/ideer_test.git
+    git_branch:   '{{branch}}'
+    root_path:    /opt/ideer_test/
+    nginx_config: /etc/nginx/conf.d/{{app_name}}.conf
+    db_name:      ideer_dev
+    db_username:  corehook
+    db_password:  corehook
+    db_host:      localhost
+    db_port:      5432
+
+  roles:
+    - { role: altermn.rvm, rvm_install_type: user, rvm_default_ruby_version: ruby_version, rvm_auto_update_rvm: false}
+
+  tasks:
+    - include: tasks/prepare_server.yml
+    - include: tasks/stop_app.yml
+    - include: tasks/update_app.yml
+    - include: tasks/write_configs.yml
+    - include: tasks/db/migrate.yml
+    - include: tasks/prepare_app.yml
+    - include: tasks/start_app.yml

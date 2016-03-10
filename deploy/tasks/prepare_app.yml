@@ -1,0 +1,4 @@
+- include: 'prepare/install_bundler.yml'
+- include: 'prepare/bundle_install.yml'
+- include: 'prepare/install_bower_components.yml'
+- include: 'prepare/compile_assets.yml'

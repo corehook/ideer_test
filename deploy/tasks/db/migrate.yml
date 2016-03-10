@@ -1,0 +1,7 @@
+- name: db seed
+  sudo: no
+  shell: >
+    source ~/.rvm/scripts/rvm; SECRET_KEY_BASE={{secret_key}} {{bundler_path}} exec rake db:migrate
+  args:
+    executable: /bin/bash
+    chdir: "{{root_path}}"

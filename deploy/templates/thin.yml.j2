@@ -1,0 +1,17 @@
+user: {{ user }}
+group: {{ group }}
+pid: {{ root_path }}/tmp/pids/thin.pid
+timeout: 30
+wait: 3
+log: {{ root_path }}/log/thin.log
+max_conns: 1024
+require: []
+environment: {{ rails_env }}
+max_persistent_conns: 512
+servers: 1
+threaded: true
+no-epoll: true
+daemonize: true
+socket: {{ root_path }}/tmp/thin.sock
+chdir: {{ root_path }}
+tag: {{ app_name }}-{{ rails_env }}

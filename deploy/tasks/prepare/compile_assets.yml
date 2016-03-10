@@ -1,0 +1,8 @@
+
+- name: Compile assets
+  sudo: no
+  shell: >
+    source ~/.rvm/scripts/rvm; {{bundler_path}} exec rake assets:clean SECRET_KEY_BASE={{secret_key}} ; {{bundler_path}} exec rake assets:clobber SECRET_KEY_BASE={{secret_key}}; {{bundler_path}} exec rake assets:precompile SECRET_KEY_BASE={{secret_key}}
+  args:
+    executable: /bin/bash
+    chdir: "{{root_path}}"

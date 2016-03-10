@@ -32901,3 +32901,603 @@ Update author params {"name"=>"Ауанасов Baron", "id"=>16}
   [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["name", "Ауанасов Baron"], ["updated_at", "2016-03-10 08:39:41.969448"], ["id", 16]]
   [1m[35m (8.4ms)[0m  COMMIT
 Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 14:27:59 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (4.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 2635ms (Views: 2625.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/app/app.self-e241f6020726344d1c7c44868bc7b8cd5e48145cba397f31b764fea537a73c6b.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-112b5d35e03f3b51de6ace0089f559855b08371b0b9a3a4de584a3e52c222a50.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for ::1 at 2016-03-10 14:28:02 +0500
+
+
+Started GET "/templates/commits/index.html" for ::1 at 2016-03-10 14:28:03 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (4.8ms)
+  Rendered templates/commits/index.haml (27.5ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for ::1 at 2016-03-10 14:28:03 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (24.0ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (58.93ms)
+Completed 200 OK in 127ms (Views: 6.9ms | ActiveRecord: 40.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 14:31:24 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 186ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for ::1 at 2016-03-10 14:31:24 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for ::1 at 2016-03-10 14:31:24 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for ::1 at 2016-03-10 14:31:24 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/app/app.self-e241f6020726344d1c7c44868bc7b8cd5e48145cba397f31b764fea537a73c6b.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-112b5d35e03f3b51de6ace0089f559855b08371b0b9a3a4de584a3e52c222a50.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-10 14:31:25 +0500
+
+
+Started GET "/templates/commits/index.html" for ::1 at 2016-03-10 14:31:25 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.1ms)
+  Rendered templates/commits/index.haml (6.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for ::1 at 2016-03-10 14:31:25 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (0.9ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (7.48ms)
+Completed 200 OK in 14ms (Views: 2.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-10 14:31:38 +0500
+
+
+Started POST "/commits/update_author" for ::1 at 2016-03-10 14:32:08 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>16, "name"=>"Ауанасов Baron"}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+Update author params {"name"=>"Ауанасов Baron", "id"=>16}
+  [1m[36m (1.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Completed 200 OK in 23ms (Views: 0.8ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/commits/update_author" for ::1 at 2016-03-10 14:32:12 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>16, "name"=>"Ауанасов Baron"}}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+Update author params {"name"=>"Ауанасов Baron", "id"=>16}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 14:33:50 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 1115ms (Views: 1113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/app/app.self-e241f6020726344d1c7c44868bc7b8cd5e48145cba397f31b764fea537a73c6b.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-c6ce2103d0d5d861903dc54984d140e68cb849f0237c56eb4025a0550844c833.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-10 14:33:52 +0500
+
+
+Started GET "/templates/commits/index.html" for ::1 at 2016-03-10 14:33:52 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.2ms)
+  Rendered templates/commits/index.haml (6.1ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for ::1 at 2016-03-10 14:33:52 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (0.9ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (14.95ms)
+Completed 200 OK in 29ms (Views: 3.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/commits/update_author" for ::1 at 2016-03-10 14:33:56 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>16, "name"=>"Ауанасов Baron 2"}}
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+Update author params {"name"=>"Ауанасов Baron 2", "id"=>16}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (6.3ms)[0m  [1mUPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["name", "Ауанасов Baron 2"], ["updated_at", "2016-03-10 09:33:56.769385"], ["id", 16]]
+  [1m[35m (2.6ms)[0m  COMMIT
+Completed 200 OK in 44ms (Views: 0.3ms | ActiveRecord: 11.1ms)
+
+
+Started POST "/commits/update_author" for ::1 at 2016-03-10 14:34:02 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>16, "name"=>"Ауанасов Baron 2"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+Update author params {"name"=>"Ауанасов Baron 2", "id"=>16}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 14:35:07 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 1292ms (Views: 1291.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-10 14:35:08 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-72fdaac22c1059a01847792622fa3c7c1eb71fa7e369d02f7affe5ad61e716a2.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/app/app.self-e241f6020726344d1c7c44868bc7b8cd5e48145cba397f31b764fea537a73c6b.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-10 14:35:09 +0500
+
+
+Started GET "/templates/commits/index.html" for ::1 at 2016-03-10 14:35:09 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.1ms)
+  Rendered templates/commits/index.haml (2.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for ::1 at 2016-03-10 14:35:09 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[35mCommit Load (1.0ms)[0m  SELECT "commits".* FROM "commits"
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mUser Load (5.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (20.41ms)
+Completed 200 OK in 33ms (Views: 6.8ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 14:35:58 +0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 1035ms (Views: 1032.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-b7c4035fde298a14aebd3b74756e6db0d3d3963321481c7a2d2f1e3edaaa7448.css?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/font-awesome/scss/font-awesome.self-05417dcec70265a940eacffe9c663bacc34a3e3a258e6939c0bf00274b79c7b3.css?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/jquery-ui/themes/smoothness/jquery-ui.self-fbce14df1578115feb2898a4cf9db9f990599e08990d415540456b0155b7584f.css?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/application.self-f41f25c1158092454655c868d93e3617f719666501b33eb0dec1dae92f05dd36.css?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/jquery/dist/jquery.self-0a6570c8f60714fcfb2147cecaf229b5c0ffff626fe407344d3b00a2ad441b7c.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/jquery-ui/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/moment/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/lodash/lodash.self-4e80bd99c68cb62f2f858bb30763602490be3d6e19f199f13c0c8209b5103cca.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.self-5dbb33010b7f71ed144a6db16c0c156666dbcd3e42bdddd44886967ae654ac74.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-loading-bar/build/loading-bar.self-268c933d6a8ef1b227d48bdcda3c8fb2add258ed3b455e830b711a879166e57b.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-confirm-modal/angular-confirm.self-029dfe98d9752f3b3523ec408965cda4e41e34f013a2a2e15f74386a7eaa2f4d.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-resource/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-utils-pagination/dirPagination.self-5e3fe147c426d49dd65de3cbf95d273ba4cafeea34509ddf4cbbfe8245b30892.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-ui-notification/dist/angular-ui-notification.self-bbafeb9c93c22d99c49e12a7852b12844d27d7d0088480efa24ad467903df942.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/angular-moment/angular-moment.self-1aff3ccbefbe4b8b698aa441f40377d17ddc37cbc8af536abc4f8a529a3ce560.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/app/app.self-e241f6020726344d1c7c44868bc7b8cd5e48145cba397f31b764fea537a73c6b.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/shared/alerts.self-50cf00eef07c245e5df33300ff25261a205f43bd22671bf7be91f6b6fa33bb87.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/shared/alerts.monitor.self-7647cff6d9fd3f8ae77be927485794727f73ea584e3a92396fd868409b9220fe.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/shared/resources.self-4317313473d833a47d0220bef07d216b9d466b882d08bf1daef9395213a7ed51.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/shared/ng_enter.self-903f8c8c46742efabd2265a3ac4dce9049c3b14da97fdccbe5e3c0168258ee6e.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/app/controllers/commits.self-112b5d35e03f3b51de6ace0089f559855b08371b0b9a3a4de584a3e52c222a50.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-10 14:35:59 +0500
+
+
+Started GET "/templates/commits/index.html" for ::1 at 2016-03-10 14:36:00 +0500
+Processing by ApplicationController#templates as HTML
+  Parameters: {"url"=>"commits/index"}
+  Rendered templates/commits/_header.haml (0.2ms)
+  Rendered templates/commits/index.haml (18.7ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/commits" for ::1 at 2016-03-10 14:36:00 +0500
+Processing by CommitsController#index as HTML
+[active_model_serializers]   [1m[36mCommit Load (0.7ms)[0m  [1mSELECT "commits".* FROM "commits"[0m
+[active_model_serializers]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+[active_model_serializers]   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 17]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModel::Serializer::Adapter::Attributes (7.1ms)
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/commits/update_author" for ::1 at 2016-03-10 14:37:00 +0500
+Processing by CommitsController#update_author as HTML
+  Parameters: {"commit"=>{"id"=>16, "name"=>"Ауанасов Baron 222"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+Update author params {"name"=>"Ауанасов Baron 222", "id"=>16}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["name", "Ауанасов Baron 222"], ["updated_at", "2016-03-10 09:37:00.189735"], ["id", 16]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.7ms)

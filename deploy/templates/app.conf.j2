@@ -1,0 +1,78 @@
+upstream backend-{{app_name}} {
+  server unix:{{root_path}}/tmp/thin.0.sock;
+}
+
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    ''      close;
+}
+
+server {
+    listen 80;
+    server_name *.{{hostname}};
+    keepalive_timeout 5;
+
+    access_log  /tmp/{{hostname}}.access.log;
+    error_log   /tmp/{{hostname}}.error.log;
+
+    location ~* ^/icons/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+
+    location ~* ^/img/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+    location ~* ^/upload/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+    location ~* ^/export/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+    location ~* ^/fonts/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+    location ~* ^/assets/ {
+      root {{root_path}}/public;
+      expires max;
+      add_header Cache-Control public;
+      add_header Last-Modified "";
+      add_header ETag "";
+      break;
+    }
+
+    location / {
+      proxy_set_header Host            $host;
+      proxy_set_header X-Forwarded-For $remote_addr;
+      proxy_pass http://backend-{{app_name}};
+    }
+}

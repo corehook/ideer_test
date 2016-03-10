@@ -1,0 +1,18 @@
+# Update nginx config 
+- name: Wrine nginx config
+  sudo: yes    
+  action: template src=templates/app.conf.j2 dest={{nginx_config}} force=yes owner={{user}}
+
+# Write thin config
+- name: Write thin config
+  sudo: no
+  action: template src=templates/thin.yml.j2 dest={{root_path}}/config/thin.yml force=yes owner={{user}}
+
+- name: Write secrets
+  sudo: no
+  action: template src=templates/secrets.yml.j2 dest={{root_path}}/config/secrets.yml force=yes owner={{user}}
+
+- name: Write database.yml
+  sudo: no
+  action: template src=templates/database.yml.j2 dest={{root_path}}/config/database.yml force=yes owner={{user}}
+

@@ -1,0 +1,29 @@
+---
+
+- name: Update apt cache
+  sudo: yes
+  apt: update_cache=yes
+
+- name: Install required packages
+  apt: name={{ item }}
+  sudo: yes
+  with_items:
+    - mongodb
+    - git
+    - python
+    - tree
+    - nodejs
+    - npm
+    - libcurl3
+    - gcc
+    - postgresql
+    - gnupg
+    - redis-server
+
+- name: Install nginx
+  sudo: yes
+  apt: name=nginx
+
+
+
+    

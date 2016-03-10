@@ -1,0 +1,2 @@
+- include: 'nginx/start.yml'
+- include: 'thin/start.yml'

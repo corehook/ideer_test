@@ -1,0 +1,15 @@
+defaults: &defaults
+  adapter: postgresql
+  host: {{db_host}}
+  port: {{db_port}}
+  username: {{db_username}}
+  password: {{db_password}}
+  schema_search_path: public
+  encoding: utf8
+  template: template0
+  pool: 30
+  timeout: 5000
+
+production:
+  <<: *defaults
+  database: {{db_name}}

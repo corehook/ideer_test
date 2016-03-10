@@ -1,0 +1,2 @@
+- include: 'nginx/stop.yml'
+- include: 'thin/stop.yml'

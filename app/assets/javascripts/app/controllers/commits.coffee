@@ -2,6 +2,7 @@ class CommitsController
   constructor: (@rootScope, @scope, @Commits, @confirm, @Alerts) ->
     vm = @
     vm.items_limit = 50
+    vm.eEditable = -1
     vm.filter =
       email: undefined
     vm.parse =
@@ -9,6 +10,7 @@ class CommitsController
       repo: ''
 
     @fetch_commits()
+
 
   fetch_commits: ->
     vm = @
@@ -20,10 +22,11 @@ class CommitsController
     vm = @
 
     vm.eEditable = -1
-    
+
     author =
       id: commit.user_id
       name: commit.name
+
     vm.Commits.update_author(commit: author).$promise.then( (response) ->
       console.log response
     )
@@ -42,7 +45,6 @@ class CommitsController
     @Alerts.success 'Query sended..'
     vm.Commits.parse(vm.parse).$promise.then( (commits) ->
       vm.fetch_commits() if commits.success
-      console.log commits
     )
 
   import_confirm: ->

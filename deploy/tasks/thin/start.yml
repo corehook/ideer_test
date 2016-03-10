@@ -1,0 +1,9 @@
+- name: Start thin
+  sudo: no
+  shell: >
+    export SECRET_KEY_BASE={{secret_key}};
+    source ~/.rvm/scripts/rvm;
+    RAILS_ENV={{rails_env}} SECRET_KEY_BASE={{secret_key}} bundle exec thin -C config/thin.yml start
+  args:
+    executable: /bin/bash
+    chdir: "{{root_path}}"

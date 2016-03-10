@@ -1,0 +1,7 @@
+- name: Bundle Install
+  sudo: no
+  shell: >
+    source ~/.rvm/scripts/rvm; bundle install
+  args:
+    chdir: "{{root_path}}"
+    executable: /bin/bash
