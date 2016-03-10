@@ -1,0 +1,16 @@
+!!!
+%html{:lang => "en", "ng-app" => "commits"}
+  %head
+
+    %title Github repo commits importer
+
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false
+    = javascript_include_tag 'application', 'data-turbolinks-track' => false
+    = csrf_meta_tags
+
+  %body
+    %div(ui-view)

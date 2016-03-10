@@ -1,0 +1,4 @@
+/vendor/assets
+/tmp
+/config/database.yml
+.idea/

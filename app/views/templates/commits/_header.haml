@@ -1,0 +1,19 @@
+%nav.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header
+      %a.navbar-brand
+        %b GitHub
+        importer
+
+      / Importer
+      %form.navbar-form.navbar-left
+        .form-group
+          %input.form-control{:placeholder => "User", :type => "text", 'ng-model' => "vm.parse.user"}
+        .form-group
+          %input.form-control{:placeholder => "Repo", :type => "text", 'ng-model' => "vm.parse.repo"}
+        %button.btn.btn-info{'ng-click' => "vm.import_confirm()"} Import
+
+      / Filter
+      %form.navbar-form.navbar-right
+        .form-group
+          %input.form-control{:placeholder => "User email", :type => "text", "ng-model" => "vm.filter.email"}
