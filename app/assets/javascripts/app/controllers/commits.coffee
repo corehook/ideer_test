@@ -11,14 +11,13 @@ class CommitsController
 
 
     @scope.$watch('vm.parse.user', (old_val, new_val) ->
-      if vm.parse.user.length > 0
-        packet =
-          user: vm.parse.user
-        vm.Commits.find_user_repos(packet).$promise.then( (response) ->
+      if new_val.length > 0
+        vm.Commits.find_user_repos({user: vm.parse.user}).$promise.then( (response) ->
           if response.success
             vm.parse.repos = response.repos
         )
     )
+    
     @fetch_commits()
 
 
@@ -30,7 +29,6 @@ class CommitsController
 
   update_author: (commit) ->
     vm = @
-
     vm.eEditable = -1
 
     author =
